@@ -1,0 +1,1 @@
+This is a full-featured To-Do List app built using the MERN stack — MongoDB, Express.js, React.js, and Node.js. It allows users to create, update, and delete tasks efficiently. The frontend is styled with Bootstrap for a clean and responsive UI, while the backend uses Express APIs connected to a MongoDB database for persistent storage.
