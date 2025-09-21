@@ -1,4 +1,6 @@
-body {
-    background-image: url("../../public/images/to-do.jpg");
+.home-section {
+    background-image: url('../images/todo.jpg');
     background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
