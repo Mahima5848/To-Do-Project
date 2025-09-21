@@ -1,5 +1,5 @@
 .home-section {
-    background-image: url('../images/todo.jpg');
+    background-image: url('../public/images/to-do.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
