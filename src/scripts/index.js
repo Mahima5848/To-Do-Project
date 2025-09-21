@@ -4,7 +4,7 @@ function LoadDashboard() {
 
         $.ajax({
             method: "get",
-            url: `/To-Do-Project/pages/user_dashboard.html`,
+            url: `/To-Do-Project/public/pages/user_dashboard.html`,
             success: (response) => {
                 $("section").html(response);
                 $("#lblUser").html($.cookie('userid'));
@@ -33,7 +33,7 @@ function LoadDashboard() {
     } else {
         $.ajax({
             method: "get",
-            url: `/To-Do-Project/pages/home.html`,
+            url: `/To-Do-Project/public/pages/home.html`,
             success: (response) => {
                 $("section").html(response);
             }
@@ -45,7 +45,7 @@ function LoadDashboard() {
 function LoadPage(page_name) {
     $.ajax({
         method: "get",
-        url: `/To-Do-Project/pages/${page_name}`,
+        url: `/To-Do-Project/public/pages/${page_name}`,
         success: (response) => {
             $("section").html(response);
         },
@@ -200,3 +200,4 @@ $(function () {
         }
     })
 })
+
